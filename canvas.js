@@ -25,7 +25,7 @@ class Bubble{
 		this.alpha = generateDecimalBetween(5, 10) / 10;
 		this.translateX = generateDecimalBetween(0, this.canvasWidth);
 		this.translateY = generateDecimalBetween(0, this.canvasHeight);
-		this.velocity = generateDecimalBetween(20, 40);
+		this.velocity = generateDecimalBetween(10, 20);
 		this.movementX = generateDecimalBetween(-2, 2) / this.velocity;
 		this.movementY = generateDecimalBetween(1, 20) / this.velocity;
 
