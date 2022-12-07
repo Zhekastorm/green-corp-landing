@@ -1,3 +1,8 @@
+
+
+
+// Анимация "горошинка"
+
 const Increase_Number_Animation_Speed = 50;
 
 
@@ -23,6 +28,8 @@ function initIncreaseNumberAnimation(){
 initIncreaseNumberAnimation();
 
 
+// Выпадающие меню
+
 document.querySelector('#budget').addEventListener('change', function handleSelectChange(event) {
   if (event.target.value === 'other') {
     const formContainer = document.createElement('div');
@@ -42,3 +49,21 @@ document.querySelector('#budget').addEventListener('change', function handleSele
   document.querySelector('.form form').removeChild(otherInput); // Задание 4
   }
 });
+
+
+$(function(){
+
+    /* Header fixed______________*/
+    
+    let menu = $("#menu");
+    let nav = $("#nav");
+
+     /* Menu_______________________*/
+
+    menu.on("click", function(event){
+        event.preventDefault();
+        nav.toggleClass("show")
+    });
+});
+    
+

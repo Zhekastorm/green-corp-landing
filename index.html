@@ -9,15 +9,24 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         
         <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
 <body>
 
 
 <header>
     <img class="header__logo" src="image/logo.svg">
-    <div>
-        <a href="#">Контакты</a>
-        <button href="#">Заказать</button>
+    </div>
+    <div class="animate__animated animate__bounceInDown animate__delay-1s">
+    <div class="nav" id="nav">
+		<nav>
+			<a class="nav_link" href="#">Контакты</a>
+			<button class="nav_link" href="#">Заказать</button>
+		</nav>
+    </div>
+        <div class="menu" type="button" id="menu">
+			<i class="fa-solid fa-bars menu_bar"></i>
+	    </div>
     </div>
 </header>
 

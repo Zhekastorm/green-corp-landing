@@ -35,6 +35,11 @@ header a{
     font-size: 15px;
     font-weight: 600;
     margin-right: 25px;
+	
+	border: none;
+    border-radius: 15px;
+    padding: 15px;
+	transition: border .3s ease-in;
 }
 
 button{
@@ -49,6 +54,19 @@ button{
     padding: 15px;
     transition: background-color .3s ease-in;
     position: relative;
+}
+
+.menu{
+	display: none;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	padding: 0;
+}
+
+.menu_bar{
+	font-size: 37px;
+	color: black;
 }
 
 button:hover{
@@ -581,7 +599,7 @@ footer{
     }
 
     .form select{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .form__submit{
@@ -617,17 +635,18 @@ footer{
         width: 100%;
         position: absolute;
         right: 0;
-        top: 60px;
+        top: 47px;
         z-index: 1;
         text-align: center;
-        background-color: #213053;
-        padding: 20px 10px;
+        background-color: white;
+        box-shadow: 0 16px 36px rgb(52 213 68/1%);
+        padding: 20px 0px;
     }
      
     .nav.show {
         display: flex;
         justify-content: center;
-        width: 95vw;
+        width: 100vw;
         height: 50px;
         right: -10px;
     }
@@ -637,13 +656,18 @@ footer{
         font-size: 20px;
         font-weight: 700;
         color: white;
-		box-shadow: 0 16px 36px rgba(98 226 250/ 20%);
-        background-color: #052977;
+		box-shadow: 0 16px 36px rgb(52 213 68/22%);
+        background-color: #23a030;
     }
 
-    .nav.show a{
+    nav a{
 		width: 120px;
         margin-right: 20px;
+    }
+
+    nav a:hover{
+        background-color: #f6980c;
+        box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
     }
 	
 	.menu{
@@ -749,10 +773,6 @@ footer{
         
         width: auto;
     }
-
-	.form_other-input{
-		
-	}
 
     .form__submit{
         font-size: 20px;
