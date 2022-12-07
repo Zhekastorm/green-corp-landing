@@ -639,7 +639,7 @@ footer{
         z-index: 1;
         text-align: center;
         background-color: white;
-        box-shadow: 0 16px 36px rgb(52 213 68/1%);
+        background: rgba(255, 255, 255, 0.8);
         padding: 20px 0px;
     }
      
