@@ -115,6 +115,7 @@ button:hover{
 }
 
 .about_info{
+    padding: 0 20px;
     max-width: 550px;
 }
 
@@ -459,6 +460,15 @@ footer{
 
     /* About */
     
+    .about_img_sun{
+        width: 100px;
+        height: 100px;
+    }
+
+    .about_img_panel{
+        width: 300px;
+    }
+
     .about h1{
         font-size: 50px;
         line-height: normal;
