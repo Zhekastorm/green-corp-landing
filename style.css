@@ -277,6 +277,10 @@ color: #22a030;
     border-radius: 25px;
 }
 
+.promo_card h2{
+	line-height: normal;
+}
+
 .promo_card p::before{
     content: "";
     display: inline-block;
@@ -364,6 +368,10 @@ input{
     padding: 0 20px;
     border-radius: 15px;
     border: none;
+}
+
+.form_other-input{
+	margin-top: 20px
 }
 
 .form__submit{
@@ -528,7 +536,7 @@ footer{
     }
 
     .promo_card h2{
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .promo_card p{
@@ -738,9 +746,13 @@ footer{
     }
 
     .form select{
-        font-size: 11px;
+        
         width: auto;
     }
+
+	.form_other-input{
+		
+	}
 
     .form__submit{
         font-size: 20px;
